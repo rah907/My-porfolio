@@ -1,0 +1,259 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+        
+       
+    }
+    @media  only screen and (max-width:767px) {
+  .nav  ul li a{ 
+ width: 100%;
+ flex-direction: column;
+ z-index: 1000;
+ }
+ body{
+  width: 100px;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+ }
+ .container .picture img{
+ 
+  display: block;
+  width:80px;
+  height:80px;
+  z-index: 1000;
+  
+ }
+ .text p{
+  display: block;
+
+  
+  
+ }
+ .number .img1{
+  margin-top: 150px;
+  
+ }
+    }
+    body{
+        background-color:  #f7e7ce;
+        height: 100%;
+        width: 100%;
+        font-family: serif;
+    }
+  
+     html{
+            scroll-behavior: smooth;
+    } 
+     
+    a{
+        text-decoration: none;
+        
+    }
+    li{
+        margin-top: 20px;
+        color: #f7e7ce;
+        font-size: 20px; 
+        margin: 20px; 
+         
+      
+    }
+      a li:hover{
+        background-color: #f7e7ce;
+        color: #ba2e2e;
+        border-radius: 10px;
+      }
+
+     ul {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding:20px;
+        list-style-type: none;
+        margin-bottom: 40px;
+        background-color: #ba2e2e;
+        border-radius: 30px;
+        
+    
+     }
+     .skill{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+     
+
+     }
+     .img2{
+       animation-name:skill;
+       animation-duration: 2s;
+        animation-iteration-count: infinite;
+        margin: 10px;
+     }
+     @keyframes skill{
+      0%,100%{transform: scale(1);
+       
+      }
+      50%{
+        transform: scale(1.2);
+      }
+    
+
+     }
+     .container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        gap: 50px;
+     
+        
+        
+
+     }
+
+     .picture img{
+        width: 350px;
+        height: 350px;
+        margin-left: 80px;
+        border-radius: 50%;
+        border: 5px solid  #ba2e2e;
+        
+     }
+     .project{
+        width: 100%;
+        height: 80px;
+        background-color: #ba2e2e;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+     }
+      .project  h3{
+        
+        padding: 10px;
+        color:#681414;
+        text-align: center;
+      }
+      .project img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        
+        
+      }
+     
+      .project1{
+        height: 300px;
+
+        
+      }
+      .project1 .item{
+        background-color:  #ba2e2e;
+          border-radius: 10px;
+      }
+      .project1{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 40px ;
+        margin:80px;
+        margin-bottom:40px;
+  
+      }
+        .img1 img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 40px;
+        
+        }
+        .number{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 330px;
+        }
+        .img2 img{
+          width: 60px;
+          height: 50px;
+          margin: 40px;
+          margin-left: 150px;
+          margin-bottom: 0%;
+
+        }
+     
+       .html{
+        width:1000px;
+        background-color:rgb(228, 117, 27);
+        margin:15px;
+        margin-left: 150px;
+        border-radius: 20px;
+
+       }
+     .html2{
+      width: 1000px;
+      background-color: #129cb8;
+      margin: 15px;
+      margin-left:150px;
+      border-radius: 20px;
+
+     }
+     .html3{
+       width: 1000px;
+      background-color:#ba2e2e;
+      margin: 15px;
+      margin-left:150px;
+      border-radius: 20px;
+
+     }
+     .html4{
+       width: 1000px;
+      background-color:#331b8b;
+      margin: 15px;
+      margin-left:150px;
+      border-radius: 20px;
+     }
+     .contain{
+      
+      width: 700px;
+      height:430px;
+      border:3px solid #ba2e2e;
+      margin: auto;
+      margin-top:30px;
+      border-radius: 20px;
+     }
+     .my img{
+      width:100px;
+      height:100px;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 50%;
+    
+     }
+    .my1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .my1 img{
+      width: 60px;
+      height: 60px;
+      margin: 30px;
+   
+    }
+   .texti{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+   }
+   textarea{
+    background-color: #f2e6e6;
+    border: #ba2e2e 2px solid;
+   }
+  .item :hover {
+     transform: translateY(-20px) scale(1.05);
+     color: #129cb8;
+  }
